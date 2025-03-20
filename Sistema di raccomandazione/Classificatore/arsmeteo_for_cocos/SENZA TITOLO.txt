@@ -1,0 +1,15 @@
+netville:             0.9
+mohamed:              0.9
+giornale:             0.9
+kebab:                0.9
+titolo:               0.9
+smarrimento:          0.9
+innocenza:            0.9
+distanza:             0.9
+informazione:         0.9
+dimensione:           0.9
+senza_titolo:         0.9
+croce:                0.9
+farmaco:              0.9
+chimica|chimico:      0.9
+erba_sintetica:       0.9

@@ -1,0 +1,4 @@
+due_passi:            0.9
+curiosità:            0.9
+_felina:              0.9
+caseggiato:           0.9

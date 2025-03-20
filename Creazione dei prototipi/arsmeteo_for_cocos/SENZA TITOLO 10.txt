@@ -1,0 +1,9 @@
+tubo:                 0.9
+acrilico:             0.9
+albero:               0.9
+casa:                 0.9
+chiesa:               0.9
+colore:               0.9
+archeologia:          0.9
+scorcio:              0.9
+silenzio:             0.9

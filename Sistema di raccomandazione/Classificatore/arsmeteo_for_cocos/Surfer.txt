@@ -1,0 +1,12 @@
+surf:                 0.9
+blu:                  0.9
+uovo:                 0.9
+ovoiforme:            0.9
+ritratto:             0.9
+trasformazione:       0.9
+metamorfosi:          0.9
+cambiamento:          0.9
+uomo:                 0.9
+atleta:               0.9
+surfista:             0.9
+surfer:               0.9
