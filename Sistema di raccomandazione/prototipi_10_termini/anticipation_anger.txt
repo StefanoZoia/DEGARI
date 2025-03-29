@@ -1,0 +1,34 @@
+Title: anticipation-anger
+
+Head Concept Name: anticipation
+Modifier Concept Name: anger
+
+head, -surprise
+
+
+
+T(modifier), outraged, 0.964
+T(modifier), brutality, 0.959
+T(modifier), hatred, 0.953
+T(modifier), hateful, 0.94
+T(modifier), terrorize, 0.939
+T(modifier), violently, 0.938
+T(modifier), infuriated, 0.938
+T(modifier), furious, 0.929
+T(modifier), furiously, 0.927
+T(modifier), enraged, 0.927
+
+T(head), anticipation, 0.859
+T(head), excited, 0.859
+T(head), excitement, 0.82
+T(head), anticipate, 0.82
+T(head), eagerness, 0.812
+T(head), exciting, 0.797
+T(head), expectant, 0.789
+T(head), thrilling, 0.781
+T(head), hope, 0.773
+T(head), quest, 0.766
+
+
+Result: {"outraged": 0.964, "brutality": 0.959, "hatred": 0.953, "hateful": 0.94, "terrorize": 0.939, "violently": 0.938, "infuriated": 0.938, "furious": 0.929, "enraged": 0.927, "excited": 0.859, "@scenario_probability": 1.581194995789024e-06}
+Scenario: [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1.581194995789024e-06]

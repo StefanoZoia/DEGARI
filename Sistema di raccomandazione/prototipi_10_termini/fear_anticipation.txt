@@ -1,0 +1,35 @@
+Title: fear-anticipation
+
+Head Concept Name: fear
+Modifier Concept Name: anticipation
+
+
+
+modifier, -surprise
+
+T(modifier), anticipation, 0.859
+T(modifier), excited, 0.859
+T(modifier), excitement, 0.82
+T(modifier), anticipate, 0.82
+T(modifier), eagerness, 0.812
+T(modifier), exciting, 0.797
+T(modifier), expectant, 0.789
+T(modifier), thrilling, 0.781
+T(modifier), hope, 0.773
+T(modifier), quest, 0.766
+
+T(head), torture, 0.984
+T(head), terrorist, 0.972
+T(head), terrorists, 0.969
+T(head), horrific, 0.969
+T(head), terrorism, 0.969
+T(head), suicidebombing, 0.967
+T(head), kill, 0.962
+T(head), homicidal, 0.959
+T(head), catastrophe, 0.953
+T(head), annihilate, 0.953
+T(head), murderer, 0.953
+
+
+Result: {"anticipation": 0.859, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "murderer": 0.953, "@scenario_probability": 6.00787548105496e-08}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 6.00787548105496e-08]

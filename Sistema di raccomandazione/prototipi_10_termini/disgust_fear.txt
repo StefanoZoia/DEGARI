@@ -1,0 +1,35 @@
+Title: disgust-fear
+
+Head Concept Name: disgust
+Modifier Concept Name: fear
+
+head, -honor
+
+
+
+T(modifier), torture, 0.984
+T(modifier), terrorist, 0.972
+T(modifier), terrorists, 0.969
+T(modifier), horrific, 0.969
+T(modifier), terrorism, 0.969
+T(modifier), suicidebombing, 0.967
+T(modifier), kill, 0.962
+T(modifier), homicidal, 0.959
+T(modifier), catastrophe, 0.953
+T(modifier), annihilate, 0.953
+T(modifier), murderer, 0.953
+
+T(head), cannibalism, 0.953
+T(head), mutilation, 0.93
+T(head), molestation, 0.914
+T(head), incest, 0.914
+T(head), rape, 0.906
+T(head), gonorrhea, 0.906
+T(head), cannibal, 0.898
+T(head), rot, 0.891
+T(head), corpse, 0.883
+T(head), massacre, 0.883
+
+
+Result: {"torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "murderer": 0.953, "cannibalism": 0.953, "@scenario_probability": 1.0843847662200085e-10}
+Scenario: [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.0843847662200085e-10]

@@ -1,0 +1,34 @@
+Title: sadness-anger
+
+Head Concept Name: sadness
+Modifier Concept Name: anger
+
+head, -happinesshead, -jubilant
+
+
+
+T(modifier), outraged, 0.964
+T(modifier), brutality, 0.959
+T(modifier), hatred, 0.953
+T(modifier), hateful, 0.94
+T(modifier), terrorize, 0.939
+T(modifier), violently, 0.938
+T(modifier), infuriated, 0.938
+T(modifier), furious, 0.929
+T(modifier), furiously, 0.927
+T(modifier), enraged, 0.927
+
+T(head), mourning, 0.969
+T(head), heartbreaking, 0.969
+T(head), tragic, 0.961
+T(head), holocaust, 0.953
+T(head), suicidal, 0.941
+T(head), misery, 0.938
+T(head), massacre, 0.931
+T(head), euthanasia, 0.927
+T(head), depression, 0.925
+T(head), grieving, 0.922
+
+
+Result: {"outraged": 0.964, "brutality": 0.959, "hatred": 0.953, "hateful": 0.94, "terrorize": 0.939, "mourning": 0.969, "heartbreaking": 0.969, "tragic": 0.961, "holocaust": 0.953, "suicidal": 0.941, "@scenario_probability": 1.6720236183039813e-10}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1.6720236183039813e-10]
