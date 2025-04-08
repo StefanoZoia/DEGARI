@@ -3,7 +3,8 @@ Title: sadness-surprise
 Head Concept Name: sadness
 Modifier Concept Name: surprise
 
-head, -happinesshead, -jubilant
+head, -happiness
+head, -jubilant
 
 modifier, -anticipation
 

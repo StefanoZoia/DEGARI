@@ -5,8 +5,6 @@ Modifier Concept Name: fear
 
 
 
-
-
 T(modifier), torture, 0.984
 T(modifier), terrorist, 0.972
 T(modifier), terrorists, 0.969
@@ -17,7 +15,6 @@ T(modifier), kill, 0.962
 T(modifier), homicidal, 0.959
 T(modifier), catastrophe, 0.953
 T(modifier), annihilate, 0.953
-T(modifier), murderer, 0.953
 
 T(head), outraged, 0.964
 T(head), brutality, 0.959
@@ -31,5 +28,5 @@ T(head), furiously, 0.927
 T(head), enraged, 0.927
 
 
-Result: {"torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "outraged": 0.964, "brutality": 0.959, "@scenario_probability": 1.8642684677161363e-12}
-Scenario: [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1.8642684677161363e-12]
+Result: {"torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "outraged": 0.964, "brutality": 0.959, "@scenario_probability": 3.9665286547151796e-11}
+Scenario: [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3.9665286547151796e-11]

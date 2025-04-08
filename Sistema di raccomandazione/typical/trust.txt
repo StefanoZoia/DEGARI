@@ -1,6 +1,10 @@
 truthfulness: 0.906
+trusted: 0.883
 trustworthy: 0.867
-honest: 0.844
 honor: 0.844
+honesty: 0.844
+honest: 0.844
 truth: 0.844
+truthful: 0.836
 trusting: 0.836
+brotherhood: 0.820

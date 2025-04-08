@@ -3,8 +3,9 @@ Title: trust-anger
 Head Concept Name: trust
 Modifier Concept Name: anger
 
-head, -cannibalismhead, -molestationhead, -rape
-
+head, -cannibalism
+head, -molestation
+head, -rape
 
 
 T(modifier), outraged, 0.964

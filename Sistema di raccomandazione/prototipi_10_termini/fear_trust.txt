@@ -4,8 +4,9 @@ Head Concept Name: fear
 Modifier Concept Name: trust
 
 
-
-modifier, -cannibalismmodifier, -molestationmodifier, -rape
+modifier, -cannibalism
+modifier, -molestation
+modifier, -rape
 
 T(modifier), truthfulness, 0.906
 T(modifier), trusted, 0.883
@@ -28,8 +29,7 @@ T(head), kill, 0.962
 T(head), homicidal, 0.959
 T(head), catastrophe, 0.953
 T(head), annihilate, 0.953
-T(head), murderer, 0.953
 
 
-Result: {"truthfulness": 0.906, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "murderer": 0.953, "@scenario_probability": 6.606413596123481e-09}
-Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 6.606413596123481e-09]
+Result: {"truthfulness": 0.906, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "annihilate": 0.953, "@scenario_probability": 1.4056199140688245e-07}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1.4056199140688245e-07]

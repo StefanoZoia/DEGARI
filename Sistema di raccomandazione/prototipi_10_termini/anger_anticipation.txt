@@ -4,7 +4,6 @@ Head Concept Name: anger
 Modifier Concept Name: anticipation
 
 
-
 modifier, -surprise
 
 T(modifier), anticipation, 0.859

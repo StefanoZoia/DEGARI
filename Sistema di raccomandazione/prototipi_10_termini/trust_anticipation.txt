@@ -3,7 +3,9 @@ Title: trust-anticipation
 Head Concept Name: trust
 Modifier Concept Name: anticipation
 
-head, -cannibalismhead, -molestationhead, -rape
+head, -cannibalism
+head, -molestation
+head, -rape
 
 modifier, -surprise
 

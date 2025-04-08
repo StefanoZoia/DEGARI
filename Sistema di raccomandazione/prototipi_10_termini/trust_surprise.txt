@@ -3,7 +3,9 @@ Title: trust-surprise
 Head Concept Name: trust
 Modifier Concept Name: surprise
 
-head, -cannibalismhead, -molestationhead, -rape
+head, -cannibalism
+head, -molestation
+head, -rape
 
 modifier, -anticipation
 

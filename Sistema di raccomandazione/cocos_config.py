@@ -9,8 +9,8 @@ TYPICAL_PROP_DIR = 'typical'
 RIGID_PROP_DIR = 'rigid'
 
 # path to the directory where the combinations are saved
-COCOS_DIR = 'prototipi'
+COCOS_DIR = 'prototipi_10_termini'
 
 # max number of typical properties in the combined concept
-MAX_ATTRS = 8
+MAX_ATTRS = 10
 

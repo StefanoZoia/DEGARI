@@ -5,7 +5,9 @@ Modifier Concept Name: trust
 
 head, -honor
 
-modifier, -cannibalismmodifier, -molestationmodifier, -rape
+modifier, -cannibalism
+modifier, -molestation
+modifier, -rape
 
 T(modifier), truthfulness, 0.906
 T(modifier), trusted, 0.883
@@ -30,5 +32,5 @@ T(head), corpse, 0.883
 T(head), massacre, 0.883
 
 
-Result: {"truthfulness": 0.906, "trusted": 0.883, "cannibalism": 0.953, "mutilation": 0.93, "molestation": 0.914, "incest": 0.914, "rape": 0.906, "gonorrhea": 0.906, "cannibal": 0.898, "rot": 0.891, "@scenario_probability": 2.0307176197960368e-07}
-Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2.0307176197960368e-07]
+Result: {"truthfulness": 0.906, "trusted": 0.883, "trustworthy": 0.867, "mutilation": 0.93, "incest": 0.914, "gonorrhea": 0.906, "cannibal": 0.898, "rot": 0.891, "corpse": 0.883, "massacre": 0.883, "@scenario_probability": 3.6301414342494247e-08}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 3.6301414342494247e-08]

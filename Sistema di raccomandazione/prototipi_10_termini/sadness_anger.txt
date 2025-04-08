@@ -3,8 +3,8 @@ Title: sadness-anger
 Head Concept Name: sadness
 Modifier Concept Name: anger
 
-head, -happinesshead, -jubilant
-
+head, -happiness
+head, -jubilant
 
 
 T(modifier), outraged, 0.964

@@ -4,7 +4,6 @@ Head Concept Name: fear
 Modifier Concept Name: anticipation
 
 
-
 modifier, -surprise
 
 T(modifier), anticipation, 0.859
@@ -28,8 +27,7 @@ T(head), kill, 0.962
 T(head), homicidal, 0.959
 T(head), catastrophe, 0.953
 T(head), annihilate, 0.953
-T(head), murderer, 0.953
 
 
-Result: {"anticipation": 0.859, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "murderer": 0.953, "@scenario_probability": 6.00787548105496e-08}
-Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 6.00787548105496e-08]
+Result: {"anticipation": 0.859, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "annihilate": 0.953, "@scenario_probability": 1.2782713789478627e-06}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1.2782713789478627e-06]

@@ -3,7 +3,9 @@ Title: trust-disgust
 Head Concept Name: trust
 Modifier Concept Name: disgust
 
-head, -cannibalismhead, -molestationhead, -rape
+head, -cannibalism
+head, -molestation
+head, -rape
 
 modifier, -honor
 
@@ -29,3 +31,6 @@ T(head), truthful, 0.836
 T(head), trusting, 0.836
 T(head), brotherhood, 0.82
 
+
+Result: {"mutilation": 0.93, "incest": 0.914, "gonorrhea": 0.906, "cannibal": 0.898, "rot": 0.891, "corpse": 0.883, "massacre": 0.883, "truthfulness": 0.906, "trusted": 0.883, "trustworthy": 0.867, "@scenario_probability": 3.630141434249426e-08}
+Scenario: [0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3.630141434249426e-08]

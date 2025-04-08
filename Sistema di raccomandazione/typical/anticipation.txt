@@ -1,6 +1,10 @@
 anticipation: 0.859
 excited: 0.859
+excitement: 0.820
+anticipate: 0.820
 eagerness: 0.812
+exciting: 0.797
 expectant: 0.789
 thrilling: 0.781
 hope: 0.773
+quest: 0.766

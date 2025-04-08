@@ -4,7 +4,6 @@ Head Concept Name: anger
 Modifier Concept Name: disgust
 
 
-
 modifier, -honor
 
 T(modifier), cannibalism, 0.953

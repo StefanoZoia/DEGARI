@@ -29,3 +29,6 @@ T(head), thrilling, 0.781
 T(head), hope, 0.773
 T(head), quest, 0.766
 
+
+Result: {"explode": 0.906, "flabbergast": 0.906, "explosion": 0.898, "ambush": 0.883, "explosive": 0.883, "eruption": 0.883, "surprisingly": 0.875, "startle": 0.875, "shockingly": 0.875, "excited": 0.859, "@scenario_probability": 8.748155627933742e-07}
+Scenario: [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 8.748155627933742e-07]

@@ -29,3 +29,6 @@ T(head), surprisingly, 0.875
 T(head), startle, 0.875
 T(head), shockingly, 0.875
 
+
+Result: {"excited": 0.859, "explode": 0.906, "flabbergast": 0.906, "explosion": 0.898, "ambush": 0.883, "explosive": 0.883, "eruption": 0.883, "surprisingly": 0.875, "startle": 0.875, "shockingly": 0.875, "@scenario_probability": 8.748155627933741e-07}
+Scenario: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 8.748155627933741e-07]

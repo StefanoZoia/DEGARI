@@ -4,7 +4,6 @@ Head Concept Name: anger
 Modifier Concept Name: surprise
 
 
-
 modifier, -anticipation
 
 T(modifier), surprise, 0.93

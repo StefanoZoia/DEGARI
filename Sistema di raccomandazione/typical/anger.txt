@@ -1,6 +1,10 @@
 outraged: 0.964
 brutality: 0.959
 hatred: 0.953
+hateful: 0.940
 terrorize: 0.939
 violently: 0.938
 infuriated: 0.938
+furious: 0.929
+furiously: 0.927
+enraged: 0.927

@@ -24,7 +24,6 @@ class Table:
         n_of_cols = len(self.data.typical_attrs)
         min_attrs = 1
         max_attrs = min(n_of_cols - 1, max_attrs)
-
         
         rows = list()
         
@@ -49,7 +48,7 @@ class Table:
                 else:
                     n_sel_from_m += bin_row[bit_index]
 
-            # if the scenario is valid, add it to table:
+            # check the following conditions on the scenario:
             # (1) scenarios selecting no properties are not allowed
             # (2) scanarios selecting all properties are not allowed
             # (3) scanarios selecting all head properties are not allowed
@@ -57,23 +56,37 @@ class Table:
             if n_sel >= min_attrs and n_sel <= max_attrs \
                                   and n_sel_from_h < h_count \
                                   and min(n_sel_from_h, n_sel_from_m) >= 1:
-                rows.append(bin_row)
+                # check if the selected typical properties conflict with rigid properties
+                if not self.typical_rigid_conflict(bin_row):
+                    rows.append(bin_row)
 
         return rows
     
     # check for conflicts between rigid properties
     def rigid_conflict(self):
-        pos_list = list()   #list of positive rigid properties
-        neg_list = list()   #list of negative rigid properties
-        for property, belongs_to_head in self.data.attrs:
-            if len(property) > 0 and property[0] == '-':
-                neg_list.append(property[1:])
-            else:
-                pos_list.append(property)
-        # if any property is in both lists, there is a conflict
-        for p in pos_list:
-            if p in neg_list:
+        # if any rigid property is in both positive and negative lists, there is a conflict
+        for p in self.data.rigid_pos_list:
+            if p in self.data.rigid_neg_list:
                 return True
+        # if no conflicts found, return False
+        return False
+    
+    # check for conflicts between the typical properties in a scenario and the rigid properties
+    def typical_rigid_conflict(self, scenario):
+        # for each typical property
+        for i in range(len(self.data.typical_attrs)):
+            # if the property is selected in scenario
+            if scenario[i] == 1:
+                prop = self.data.typical_attrs[i][0]
+                # if the property is negated
+                if len(prop) > 0 and prop[0] == '-':
+                    # check for conflicts with positive rigid properties
+                    if prop in self.data.rigid_pos_list:
+                        return True
+                else:
+                    # check for conflicts with negative rigid properties
+                    if prop in self.data.rigid_neg_list:
+                        return True
         # if no conflicts found, return False
         return False
 
@@ -118,5 +131,5 @@ class Table:
                 row[i] = 1 - row[i]
         
         # if the resulting ontology is not consistent, there is a conflict
-        onto = om.OntologyManager(self.data.typical_attrs, self.data.attrs, row)
+        onto = om.OntologyManager(self.data.typical_attrs, [], row) # Note that here we ingore rigid properties
         return onto.is_consistent()

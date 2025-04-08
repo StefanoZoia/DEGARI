@@ -3,7 +3,8 @@ Title: sadness-joy
 Head Concept Name: sadness
 Modifier Concept Name: joy
 
-head, -happinesshead, -jubilant
+head, -happiness
+head, -jubilant
 
 modifier, -holocaust
 
@@ -29,3 +30,6 @@ T(head), euthanasia, 0.927
 T(head), depression, 0.925
 T(head), grieving, 0.922
 
+
+Result: {"happiest": 0.986, "bliss": 0.971, "celebrating": 0.97, "ecstatic": 0.954, "elation": 0.944, "bestdayever": 0.938, "mourning": 0.969, "heartbreaking": 0.969, "tragic": 0.961, "suicidal": 0.941, "@scenario_probability": 1.1960553961192802e-11}
+Scenario: [1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1.1960553961192802e-11]

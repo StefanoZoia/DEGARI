@@ -4,7 +4,6 @@ Head Concept Name: fear
 Modifier Concept Name: disgust
 
 
-
 modifier, -honor
 
 T(modifier), cannibalism, 0.953
@@ -28,8 +27,7 @@ T(head), kill, 0.962
 T(head), homicidal, 0.959
 T(head), catastrophe, 0.953
 T(head), annihilate, 0.953
-T(head), murderer, 0.953
 
 
-Result: {"cannibalism": 0.953, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "annihilate": 0.953, "@scenario_probability": 1.0843847662200087e-10}
-Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1.0843847662200087e-10]
+Result: {"cannibalism": 0.953, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "annihilate": 0.953, "@scenario_probability": 2.3072016302553354e-09}
+Scenario: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 2.3072016302553354e-09]

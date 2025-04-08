@@ -4,7 +4,6 @@ Head Concept Name: fear
 Modifier Concept Name: joy
 
 
-
 modifier, -holocaust
 
 T(modifier), happiest, 0.986
@@ -28,8 +27,7 @@ T(head), kill, 0.962
 T(head), homicidal, 0.959
 T(head), catastrophe, 0.953
 T(head), annihilate, 0.953
-T(head), murderer, 0.953
 
 
-Result: {"happiest": 0.986, "happiness": 0.984, "bliss": 0.971, "celebrating": 0.97, "jubilant": 0.969, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "@scenario_probability": 2.769698950943555e-13}
-Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2.769698950943555e-13]
+Result: {"happiest": 0.986, "happiness": 0.984, "bliss": 0.971, "celebrating": 0.97, "jubilant": 0.969, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "@scenario_probability": 5.892976491369261e-12}
+Scenario: [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 5.892976491369261e-12]

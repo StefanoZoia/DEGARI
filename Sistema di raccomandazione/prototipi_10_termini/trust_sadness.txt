@@ -3,9 +3,12 @@ Title: trust-sadness
 Head Concept Name: trust
 Modifier Concept Name: sadness
 
-head, -cannibalismhead, -molestationhead, -rape
+head, -cannibalism
+head, -molestation
+head, -rape
 
-modifier, -happinessmodifier, -jubilant
+modifier, -happiness
+modifier, -jubilant
 
 T(modifier), mourning, 0.969
 T(modifier), heartbreaking, 0.969

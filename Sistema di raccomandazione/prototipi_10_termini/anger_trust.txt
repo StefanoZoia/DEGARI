@@ -4,8 +4,9 @@ Head Concept Name: anger
 Modifier Concept Name: trust
 
 
-
-modifier, -cannibalismmodifier, -molestationmodifier, -rape
+modifier, -cannibalism
+modifier, -molestation
+modifier, -rape
 
 T(modifier), truthfulness, 0.906
 T(modifier), trusted, 0.883

@@ -3,7 +3,9 @@ Title: trust-joy
 Head Concept Name: trust
 Modifier Concept Name: joy
 
-head, -cannibalismhead, -molestationhead, -rape
+head, -cannibalism
+head, -molestation
+head, -rape
 
 modifier, -holocaust
 

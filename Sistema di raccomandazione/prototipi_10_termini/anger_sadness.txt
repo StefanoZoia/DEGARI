@@ -4,8 +4,8 @@ Head Concept Name: anger
 Modifier Concept Name: sadness
 
 
-
-modifier, -happinessmodifier, -jubilant
+modifier, -happiness
+modifier, -jubilant
 
 T(modifier), mourning, 0.969
 T(modifier), heartbreaking, 0.969

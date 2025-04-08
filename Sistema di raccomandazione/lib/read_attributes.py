@@ -37,4 +37,13 @@ class ReadAttributes:
                                             line[1],
                                             (True if line[0] == 'head' else False)
                                         ]))
-
+                
+        # saves redundant lists of rigid properties, used to
+        # speed up the combination by early checking for conflicts    
+        self.rigid_pos_list = list()   #list of positive rigid properties
+        self.rigid_neg_list = list()   #list of negative rigid properties
+        for property, belongs_to_head in self.attrs:
+            if len(property) > 0 and property[0] == '-':
+                self.rigid_neg_list.append(property[1:])
+            else:
+                self.rigid_pos_list.append(property)

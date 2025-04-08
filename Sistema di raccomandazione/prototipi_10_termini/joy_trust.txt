@@ -5,7 +5,9 @@ Modifier Concept Name: trust
 
 head, -holocaust
 
-modifier, -cannibalismmodifier, -molestationmodifier, -rape
+modifier, -cannibalism
+modifier, -molestation
+modifier, -rape
 
 T(modifier), truthfulness, 0.906
 T(modifier), trusted, 0.883

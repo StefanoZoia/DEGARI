@@ -4,8 +4,8 @@ Head Concept Name: fear
 Modifier Concept Name: sadness
 
 
-
-modifier, -happinessmodifier, -jubilant
+modifier, -happiness
+modifier, -jubilant
 
 T(modifier), mourning, 0.969
 T(modifier), heartbreaking, 0.969
@@ -28,8 +28,7 @@ T(head), kill, 0.962
 T(head), homicidal, 0.959
 T(head), catastrophe, 0.953
 T(head), annihilate, 0.953
-T(head), murderer, 0.953
 
 
-Result: {"mourning": 0.969, "heartbreaking": 0.969, "tragic": 0.961, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "@scenario_probability": 1.5752590702753814e-12}
-Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1.5752590702753814e-12]
+Result: {"mourning": 0.969, "heartbreaking": 0.969, "tragic": 0.961, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "@scenario_probability": 3.3516150431391063e-11}
+Scenario: [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 3.3516150431391063e-11]

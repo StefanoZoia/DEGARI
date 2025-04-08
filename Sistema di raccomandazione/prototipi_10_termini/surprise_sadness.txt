@@ -5,7 +5,8 @@ Modifier Concept Name: sadness
 
 head, -anticipation
 
-modifier, -happinessmodifier, -jubilant
+modifier, -happiness
+modifier, -jubilant
 
 T(modifier), mourning, 0.969
 T(modifier), heartbreaking, 0.969

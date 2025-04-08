@@ -38,12 +38,12 @@ def write_cocos_file(head, modifier):
     
         # rigid properties
         for p in getRigidProperties(f'{cfg.RIGID_PROP_DIR}/{head}.txt'):
-            f.write("head, " + p)
-        f.write("\n\n")
+            f.write(f"head, {p}\n")
+        f.write("\n")
         
         for p in getRigidProperties(f'{cfg.RIGID_PROP_DIR}/{modifier}.txt'):
-            f.write("modifier, " + p)
-        f.write("\n\n")
+            f.write(f"modifier, {p}\n")
+        f.write("\n")
         
         # typical properties
         modifier_typ = getTypicalProperties(f'{cfg.TYPICAL_PROP_DIR}/{modifier}.txt')
@@ -69,4 +69,10 @@ if __name__ == '__main__' :
             
         write_cocos_file(head, modifier)
     else:
-        print("Use: python3 cocos_preprocessing.py <head_concept> <modifier_concept>")
+        print("Running all possible combinations...")
+        print("To run a specific combination: python3 cocos_preprocessing.py <head_concept> <modifier_concept>\n")
+        file_list = os.listdir(cfg.TYPICAL_PROP_DIR)
+        for f1 in file_list:
+            for f2 in file_list:
+                if f1 != f2:
+                    write_cocos_file(f1.split(".")[0], f2.split(".")[0])

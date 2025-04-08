@@ -3,7 +3,8 @@ Title: sadness-disgust
 Head Concept Name: sadness
 Modifier Concept Name: disgust
 
-head, -happinesshead, -jubilant
+head, -happiness
+head, -jubilant
 
 modifier, -honor
 

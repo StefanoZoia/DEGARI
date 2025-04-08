@@ -5,8 +5,6 @@ Modifier Concept Name: anger
 
 
 
-
-
 T(modifier), outraged, 0.964
 T(modifier), brutality, 0.959
 T(modifier), hatred, 0.953
@@ -28,8 +26,7 @@ T(head), kill, 0.962
 T(head), homicidal, 0.959
 T(head), catastrophe, 0.953
 T(head), annihilate, 0.953
-T(head), murderer, 0.953
 
 
-Result: {"outraged": 0.964, "brutality": 0.959, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "@scenario_probability": 1.8642684677161367e-12}
-Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1.8642684677161367e-12]
+Result: {"outraged": 0.964, "brutality": 0.959, "torture": 0.984, "terrorist": 0.972, "terrorists": 0.969, "horrific": 0.969, "terrorism": 0.969, "suicidebombing": 0.967, "kill": 0.962, "homicidal": 0.959, "@scenario_probability": 3.966528654715181e-11}
+Scenario: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 3.966528654715181e-11]
